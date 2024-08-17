@@ -63,7 +63,11 @@ export default {
         900: "#0b202f"
       },      
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Poppins', 'ui-sans-serif', 'system-ui'],
+      },
+    },
   },
   plugins: [],
 }
